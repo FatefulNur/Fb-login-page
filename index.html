@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+ <head>
+  <meta charset="UTF-8">
+  <title>Facebook-log in or sign up</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes"/>
+  <link rel="shortcut icon" type="image/x-icon" href="importimg/favicon.ico"></link>
+  <link rel="stylesheet" type="text/css" href="facebook.css"></link>
+  <link rel="stylesheet" type="text/css" href="responsive-fb.css"></link>
+ </head>
+ <body>
+			<!--   Start header  -->
+   <header>
+     <div class="container">
+	   <div class="left">
+	     <img src="importimg/logo.png"/>
+	   </div> 
+	   <div class="right">
+	   <form action="#" method="post">
+	     <div id="input-1">
+		     <label for="input1">Email or phone</label>
+		     <input type="text" id="input1" required="required"/>
+		 </div>
+	     <div id="input-2">
+		     <label for="input2">Password</label>
+		     <input type="password" id="input2" required="required"/>
+			 <a href="#">Forgotten account?</a>
+		 </div>
+	     <div id="log-btn">
+		     <input type="submit" value="Log In"/>
+		 </div>
+	  </form>
+	   </div> 
+	 </div>
+   </header>
+			<!--   End header  -->
+			<!--   Start section  -->
+   <section>
+       <div class="container">
+	      <div class="left-area">
+		    <p>Facebook helps you connect and share with the people in your life.</p>
+			<img src="importimg/connect-with-people.png"/>
+		  </div>
+	      <div class="right-area">
+		  <div class="heading">
+		     <span class="span0">Create an account</span>
+		     <span class="span1">It's quick and easy.</span>
+		  </div>
+			 <form action="#" method="post" id="form">
+			   <div class="name-box">
+			     <input type="text" id="first-name" placeholder="First name" required="required"/>
+			     <input type="text" id="surname" placeholder="Surname" required=""/>
+			   </div>
+			   <div class="email-box">
+			     <input type="text" id="email" placeholder="Mobile number or email address" required=""/>
+			   </div>
+			   <div class="password-box">
+			     <input type="password" id="password" placeholder="New password" required="required"/>
+			   </div>
+			   <div class="option-grp">
+			     <span id="birth">Birthday</span>
+			     <select >
+				    <option value="0">Day</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
+				    <option value="6">6</option>
+				    <option value="7">7</option>
+				    <option value="8">8</option>
+				    <option value="9">9</option>
+				    <option value="10">10</option>
+				    <option value="11">11</option>
+				    <option value="12">12</option>
+				    <option value="13">13</option>
+				    <option value="14">14</option>
+				    <option value="15" selected>15</option>
+				    <option value="16">16</option>
+				    <option value="17">17</option>
+				    <option value="18">18</option>
+				    <option value="19">19</option>
+				    <option value="20">20</option>
+				    <option value="21">21</option>
+				    <option value="22">22</option>
+				    <option value="23">23</option>
+				    <option value="24">24</option>
+				    <option value="25">25</option>
+				    <option value="26">26</option>
+				    <option value="27">27</option>
+				    <option value="28">28</option>
+				    <option value="29">29</option>
+				    <option value="30">30</option>
+				    <option value="31">31</option>
+				 </select>
+			     <select>
+				    <option value="0">Month</option>
+				    <option value="1">Jan</option>
+				    <option value="2">Feb</option>
+				    <option value="3" selected>Mar</option>
+				    <option value="4">Apr</option>
+				    <option value="5">May</option>
+				    <option value="6">Jun</option>
+				    <option value="7">Jul</option>
+				    <option value="8">Aug</option>
+				    <option value="9">Sept</option>
+				    <option value="10">Oct</option>
+				    <option value="11">Nov</option>
+				    <option value="12">Dec</option>
+				 </select>
+			     <select>
+				    <option value="0">Year</option>
+				    <option value="1">2020</option>
+				    <option value="2">2019</option>
+				    <option value="3">2018</option>
+				    <option value="4">2017</option>
+				    <option value="5">2016</option>
+				    <option value="6">2015</option>
+				    <option value="7">2014</option>
+				    <option value="8">2013</option>
+				    <option value="9">2012</option>
+				    <option value="10">2011</option>
+				    <option value="11">2010</option>
+				    <option value="12">2009</option>
+				    <option value="13">2008</option>
+				    <option value="14">2007</option>
+				    <option value="15">2006</option>
+				    <option value="16">2005</option>
+				    <option value="17">2004</option>
+				    <option value="18">2003</option>
+				    <option value="19">2002</option>
+				    <option value="20">2000</option>
+				    <option value="21">1999</option>
+				    <option value="22">1998</option>
+				    <option value="23">1997</option>
+				    <option value="24">1996</option>
+				    <option value="25" selected>1995</option>
+				    <option value="26">1994</option>
+				    <option value="27">1993</option>
+				    <option value="28">1992</option>
+				    <option value="29">1991</option>
+				    <option value="30">1990</option>
+				 </select>
+				 <a href="#"><i class="fas">?</i></a>
+			   </div>
+			   <div class="cover">
+			      <span>Gender</span>			   
+			   <div class="radio-box">
+				  <div class="female">
+				    <input type="radio" name="gender" id="female" onclick="myShort();"/>
+					<label for="female">Female</label>
+				  </div>
+				  <div class="male">
+				    <input type="radio" name="gender" id="male" onclick="myShort();"/>
+					<label for="male">Male</label>
+				  </div>
+				  <div class="custom">
+				    <input type="radio" name="gender" id="custom"  onclick="myBlock();"/>
+					<label for="custom">Custom</label>
+				  </div>
+				  <a href="#"><i class="fas">?</i></a>
+			   </div>
+			   <div class="custom-blog">
+			      <select>
+				    <option value="1" disabled="disabled" selected="selected">Select your pronoun</option>
+				    <option value="2">She: "Wish her a happy birthday!"</option>
+				    <option value="3">He: "Wish him a happy birthday!"</option>
+				    <option value="4">They: "Wish them a happy birthday!"</option>
+				  </select>
+				  <span id="shortnote">Your pronoun is visible to everyone.</span>
+				  <div class="optional">
+				    <input type="text" placeholder="Gender (optional)"/>
+				  </div>
+			   </div>
+			   </div>
+			   <div class="sign-up">
+			      <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a href="#"> Data Policy </a>and<a href="#"> Cookie Policy</a>.
+				     You may receive SMS notifications from us and can opt out at any time.</p>
+				  <div class="btn">
+				    <input type="submit" value="Sign Up" required="required"/>
+				  </div>
+			   </div>
+			 </form>
+			 <p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+		  </div>
+	   </div>
+   </section>		
+			<!--   End section  -->
+			<!--   Start footer  -->
+	<footer>
+	<div class="container">
+	   <div class="top">
+	     <ul>
+		        <li><a href="#" id="disable">English (UK)</a></li>
+			    <li><a href="#">বাংলা</a></li>
+				<li><a href="#">অসমীয়া</a></li>
+				<li><a href="#">हिन्दी</a></li>
+				<li><a href="#">नेपाली</a></li>
+				<li><a href="#">Bahasa Indonesia</a></li>
+				<li><a href="#">العربية</a></li>
+				<li><a href="#">中文(简体)</a></li>
+				<li><a href="#">Bahasa Melayu</a></li>
+				<li><a href="#">Español</a></li>
+				<li><a href="#">Português (Brasil)</a></li>
+				<li><a href="#">+</a></li>
+		 </ul>
+	   </div>
+	   <hr/>
+	   <div class="middle">
+	     <ul>
+		        <li><a href="#">Sign Up</a></li>
+		        <li><a href="#">Log In</a></li>
+		        <li><a href="#">Messenger</a></li>
+		        <li><a href="#">Facebook Lite</a></li>
+		        <li><a href="#">Watch</a></li>
+		        <li><a href="#">People</a></li>
+		        <li><a href="#">Pages</a></li>
+		        <li><a href="#">Page Categories</a></li>
+		        <li><a href="#">Places</a></li>
+		        <li><a href="#">Games</a></li>
+		        <li><a href="#">Locations</a></li>
+		        <li><a href="#">Marketplace</a></li>
+		        <li><a href="#">Groups</a></li>
+		        <li><a href="#">Instagram</a></li>
+		        <li><a href="#">Local</a></li>
+		        <li><a href="#">Fundraisers</a></li>
+		        <li><a href="#">Services</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Create ad</a></li>
+		        <li><a href="#">Create Page</a></li>
+		        <li><a href="#">Developers</a></li>
+		        <li><a href="#">Careers</a></li>
+		        <li><a href="#">Privacy</a></li>
+		        <li><a href="#">Cookies</a></li>
+		        <li><a href="#">AdChoices</a></li>
+		        <li><a href="#">Terms</a></li>
+		        <li><a href="#">Helps</a></li>
+		 </ul>
+		 </div>
+	   <div class="bottom"><span id="disable">Facebook &copy; 2020</span></div>
+	</div>
+	</footer>
+			<!--   End footer  -->
+	<script type="text/javascript">
+		function myBlock(){
+			document.querySelector(".custom-blog").classList.add("active");
+		
+		}
+		function myShort(){
+			document.querySelector(".custom-blog").classList.remove("active");
+		
+		}
+	
+	
+	</script>
+	
+ </body>
+</html>

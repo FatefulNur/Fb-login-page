@@ -1,0 +1,122 @@
+@media (max-width:1207px){
+	section .left-area{
+		clear:left;
+		width:100%;
+	}
+	.left-area p{
+		width:100%;
+		margin:auto;
+		text-align:center;
+		font-size:15px;
+	}
+	.left-area img{
+		width: 90%;
+		margin-top: 28px;
+	}
+	section .right-area{
+		float:none;
+		width:60%;
+		margin:auto;
+	}
+}
+@media (max-width:1149px){
+	.left{
+		width:100%;
+		clear:left;
+		text-align:center;
+	}
+	.right{
+		clear:right;
+		width:100%;
+		text-align:center;
+		margin:auto;
+	}
+	.right form{
+		width: 47%;
+        margin: auto;
+        padding:0;
+		overflow:hidden;
+	}
+	#input-1{
+		margin-bottom:5px;
+	}
+}
+@media (max-width:1132px){
+	#input-1,
+	#input-2,
+	#log-btn{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	#input-1 input,
+	#input-2 input{
+		width:70%;
+	}
+	#input-1{
+		margin-bottom:5px;
+	}
+	#log-btn{
+		padding:15px 0 10px 0;
+		background:transparent;
+	}
+	#log-btn input{
+		margin:auto;
+	}
+	.left-area p{
+		font-size:15px!important;
+    }
+}
+@media (max-width:770px){
+	#input-1 input,
+	#input-2 input{
+		width:100%;
+	}
+	#input-1{
+		margin-bottom:5px;
+	}
+	.left-area p{
+		font-size:15px!important;
+		width:50%!important;
+		font-size:9px!important;
+		line-height:1.5!important;
+    }
+}
+@media (max-width:712px){
+	section .right-area .span0{
+		font-size:34px;
+	}
+}
+@media (max-width:691px){
+	.radio-box{
+		display:grid;
+	}
+}
+@media (max-width:672px){
+	section .right-area .span0{
+		font-size:30px;
+	}
+}
+@media (max-width:582px){
+	section .right-area .span0{
+		font-size:24px;
+	}
+}
+@media (max-width:516px){
+	section .sign-up p{
+		width:200px;
+	}
+}
+@media (max-width:455px){
+	#input-1 input,
+	#input-2 input{
+		width:100%;
+	}
+	#input-1 label,
+	#input-2 label{
+		text-align:left;
+	}
+	#input-1{
+		margin-bottom:5px;
+	}
+}
